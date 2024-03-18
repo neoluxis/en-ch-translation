@@ -8,7 +8,7 @@ class Hyperparams:
     target_test = "corpora/en.test.txt"
 
     # training
-    batch_size = 64  # alias = N
+    batch_size = 128  # alias = N
     batch_size_valid = 32
     lr = (
         0.0001  # learning rate. In paper, learning rate is adjusted to the global step.

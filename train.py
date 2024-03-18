@@ -4,6 +4,7 @@ import sys
 import tempfile
 import time
 
+from tqdm import tqdm
 import numpy as np
 import torch
 import torch.optim as optim
@@ -113,7 +114,7 @@ def train():
                 )
 
             if (
-                current_batches % 10 == 0
+                current_batches % 1 == 0
                 or current_batches == 0
                 or current_batches == num_batch
             ):

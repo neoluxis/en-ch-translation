@@ -1,0 +1,25 @@
+2024-03-18 21:03:43,814:INFO: 
++------------------+---------------------+
+| Parameters       | Value               |
++------------------+---------------------+
+| source_train     | corpora/cn.txt      |
+| target_train     | corpora/en.txt      |
+| source_test      | corpora/cn.test.txt |
+| target_test      | corpora/en.test.txt |
+| batch_size       | 64                  |
+| batch_size_valid | 32                  |
+| lr               | 0.0001              |
+| logdir           | logdir              |
+| model_dir        | ./models/           |
+| maxlen           | 50                  |
+| min_cnt          | 0                   |
+| hidden_units     | 512                 |
+| num_blocks       | 12                  |
+| num_epochs       | 50                  |
+| num_heads        | 8                   |
+| dropout_rate     | 0.4                 |
+| sinusoid         | False               |
+| eval_epoch       | 1                   |
+| eval_script      | scripts/validate.sh |
+| check_frequency  | 10                  |
++------------------+---------------------+
